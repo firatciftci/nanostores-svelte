@@ -1,0 +1,8 @@
+coverage/
+test/
+.github/
+oxlint.config.ts
+oxfmt.config.ts
+vitest.config.ts
+svelte.config.js
+tsconfig.json
