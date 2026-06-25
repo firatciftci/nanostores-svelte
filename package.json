@@ -19,7 +19,6 @@
     }
   ],
   "type": "module",
-  "packageManager": "pnpm@11.9.0",
   "sideEffects": false,
   "types": "./index.d.ts",
   "svelte": "./index.js",
