@@ -19,7 +19,7 @@ stores.
 
 ```svelte
 <script>
-  import { useStore } from '@nanostores/svelte'
+  import { useStore } from '@nanostores/svelte-runes'
 
   import { profile } from '../stores/profile.js'
 
