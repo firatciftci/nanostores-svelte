@@ -1,5 +1,5 @@
 {
-  "name": "@nanostores/svelte-runes",
+  "name": "nanostores-svelte-runes",
   "version": "1.0.0",
   "description": "Svelte 5 runes integration for Nano Stores, a tiny state manager with many atomic tree-shakable stores",
   "keywords": [
@@ -22,6 +22,10 @@
   "sideEffects": false,
   "types": "./index.d.ts",
   "svelte": "./index.js",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "exports": {
     ".": {
       "types": "./index.d.ts",

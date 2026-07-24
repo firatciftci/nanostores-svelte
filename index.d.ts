@@ -20,7 +20,7 @@ export interface UseStoreOptions<SomeStore> {
  *
  * ```svelte
  * <script>
- *   import { useStore } from '@nanostores/svelte-runes'
+ *   import { useStore } from 'nanostores-svelte-runes'
  *
  *   import { profile } from '../stores/profile.js'
  *
