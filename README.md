@@ -19,7 +19,7 @@ stores.
 
 ```svelte
 <script>
-  import { useStore } from 'nanostores-svelte-runes'
+  import { useStore } from '@nanostores/svelte-runes'
 
   import { profile } from '../stores/profile.js'
 
@@ -34,7 +34,7 @@ stores.
 
 ---
 
-<img src="https://cdn.evilmartians.com/badges/logo-no-label.svg" alt="" width="22" height="16" /> Made at <b><a href="https://evilmartians.com/devtools?utm_source=nanostores-svelte&utm_campaign=devtools-button&utm_medium=github">Evil Martians</a></b>, product consulting for <b>developer tools</b>.
+<img src="https://cdn.evilmartians.com/badges/logo-no-label.svg" alt="" width="22" height="16" /> Made at <b><a href="https://evilmartians.com/devtools?utm_source=nanostores-svelte-runes&utm_campaign=devtools-button&utm_medium=github">Evil Martians</a></b>, product consulting for <b>developer tools</b>.
 
 ---
 
@@ -42,7 +42,7 @@ stores.
 ## Install
 
 ```sh
-npm install nanostores nanostores-svelte-runes
+npm install nanostores @nanostores/svelte-runes
 ```
 
 Requires Svelte `>=5.7.0` (when [`createSubscriber`] was added).
@@ -56,7 +56,7 @@ value. As long as you read `.current` inside a reactive context — markup,
 
 ```svelte
 <script>
-  import { useStore } from 'nanostores-svelte-runes'
+  import { useStore } from '@nanostores/svelte-runes'
 
   import { router } from '../stores/router.js'
 
@@ -75,7 +75,7 @@ from any other rune:
 
 ```svelte
 <script>
-  import { useStore } from 'nanostores-svelte-runes'
+  import { useStore } from '@nanostores/svelte-runes'
 
   import { profile } from '../stores/profile.js'
 
@@ -118,7 +118,7 @@ export let profile = atom({ name: 'Anna' })
 
 ```svelte
 <script>
-  import { useStore } from 'nanostores-svelte-runes'
+  import { useStore } from '@nanostores/svelte-runes'
 
   import { $profile as profile } from '../stores/profile.js'
 
@@ -137,7 +137,7 @@ For [`map`](https://github.com/nanostores/nanostores#maps) and
 
 ```svelte
 <script>
-  import { useStore } from 'nanostores-svelte-runes'
+  import { useStore } from '@nanostores/svelte-runes'
 
   import { settings } from '../stores/settings.js'
 
