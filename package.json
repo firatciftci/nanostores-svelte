@@ -1,5 +1,5 @@
 {
-  "name": "nanostores-svelte-runes",
+  "name": "@nanostores/svelte-runes",
   "version": "1.0.0",
   "description": "Svelte 5 runes integration for Nano Stores, a tiny state manager with many atomic tree-shakable stores",
   "keywords": [
@@ -11,7 +11,7 @@
   ],
   "license": "MIT",
   "author": "Firat Ciftci <2052855+firatciftci@users.noreply.github.com>",
-  "repository": "firatciftci/nanostores-svelte-runes",
+  "repository": "nanostores/svelte-runes",
   "funding": [
     {
       "type": "github",
@@ -22,10 +22,6 @@
   "sideEffects": false,
   "types": "./index.d.ts",
   "svelte": "./index.js",
-  "files": [
-    "index.js",
-    "index.d.ts"
-  ],
   "exports": {
     ".": {
       "types": "./index.d.ts",

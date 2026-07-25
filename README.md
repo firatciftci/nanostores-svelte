@@ -19,7 +19,7 @@ stores.
 
 ```svelte
 <script>
-  import { useStore } from 'nanostores-svelte-runes'
+  import { useStore } from '@nanostores/svelte-runes'
 
   import { profile } from '../stores/profile.js'
 
@@ -36,7 +36,7 @@ stores.
 ## Install
 
 ```sh
-npm install nanostores nanostores-svelte-runes
+npm install nanostores @nanostores/svelte-runes
 ```
 
 Requires Svelte `>=5.7.0` (when [`createSubscriber`] was added).
@@ -50,7 +50,7 @@ value. As long as you read `.current` inside a reactive context — markup,
 
 ```svelte
 <script>
-  import { useStore } from 'nanostores-svelte-runes'
+  import { useStore } from '@nanostores/svelte-runes'
 
   import { router } from '../stores/router.js'
 
@@ -69,7 +69,7 @@ from any other rune:
 
 ```svelte
 <script>
-  import { useStore } from 'nanostores-svelte-runes'
+  import { useStore } from '@nanostores/svelte-runes'
 
   import { profile } from '../stores/profile.js'
 
@@ -112,7 +112,7 @@ export let profile = atom({ name: 'Anna' })
 
 ```svelte
 <script>
-  import { useStore } from 'nanostores-svelte-runes'
+  import { useStore } from '@nanostores/svelte-runes'
 
   import { $profile as profile } from '../stores/profile.js'
 
@@ -131,7 +131,7 @@ For [`map`](https://github.com/nanostores/nanostores#maps) and
 
 ```svelte
 <script>
-  import { useStore } from 'nanostores-svelte-runes'
+  import { useStore } from '@nanostores/svelte-runes'
 
   import { settings } from '../stores/settings.js'
 
