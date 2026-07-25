@@ -1,6 +1,6 @@
 {
   "name": "@nanostores/svelte-runes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Svelte 5 runes integration for Nano Stores, a tiny state manager with many atomic tree-shakable stores",
   "keywords": [
     "svelte",
